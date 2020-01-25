@@ -1,0 +1,16 @@
+PODS:
+  - mp3lame-for-ios (0.1.1)
+
+DEPENDENCIES:
+  - mp3lame-for-ios
+
+SPEC REPOS:
+  trunk:
+    - mp3lame-for-ios
+
+SPEC CHECKSUMS:
+  mp3lame-for-ios: 4daeb5686885be66438154050e3fe975d4ee1f07
+
+PODFILE CHECKSUM: 25276dda93005f7f92f394ecddfe06125b58ed05
+
+COCOAPODS: 1.8.4

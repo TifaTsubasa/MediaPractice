@@ -19,6 +19,8 @@ class RootTableViewController: UITableViewController {
     switch indexPath.row {
     case 1:
       navigationController?.pushViewController(CutAudioViewController(), animated: true)
+    case 2:
+      navigationController?.pushViewController(MixAudioViewController(), animated: true)
     default: break
     }
     print(indexPath)

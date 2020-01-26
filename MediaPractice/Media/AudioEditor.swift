@@ -33,26 +33,5 @@ class AudioEditor: NSObject {
         completion(nil, exportSession?.error)
       }
     })
-//    NSString *outPutPath = [[self composeDir] stringByAppendingPathComponent:@"Crop.m4a"];
-//    NSURL *audioFileOutput = [NSURL fileURLWithPath:outPutPath];
-//
-//    [[NSFileManager defaultManager] removeItemAtURL:audioFileOutput error:NULL];
-//    AVAsset *asset = [AVAsset assetWithURL:url];
-//
-//    AVAssetExportSession *exportSession = [AVAssetExportSession exportSessionWithAsset:asset
-//                                                                            presetName:AVAssetExportPresetAppleM4A];
-//    CMTimeRange exportTimeRange = CMTimeRangeFromTimeToTime(startTime, endTime);
-//
-//    exportSession.outputURL = audioFileOutput;
-//    exportSession.outputFileType = AVFileTypeAppleM4A;
-//    exportSession.timeRange = exportTimeRange;
-//
-//    [exportSession exportAsynchronouslyWithCompletionHandler:^{
-//        if (AVAssetExportSessionStatusCompleted == exportSession.status) {
-//            NSLog(@" FlyElephant \n %@", outPutPath);
-//        } else if (AVAssetExportSessionStatusFailed == exportSession.status) {
-//            NSLog(@"FlyElephant error: %@", exportSession.error.localizedDescription);
-//        }
-//    }];
   }
 }

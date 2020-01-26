@@ -16,6 +16,7 @@
 		83299D0723DC89D4003F7D5C /* AudioEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0623DC89D4003F7D5C /* AudioEditor.swift */; };
 		83299D0923DC97C6003F7D5C /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0823DC97C6003F7D5C /* RootTableViewController.swift */; };
 		83299D0B23DC98BA003F7D5C /* CutAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */; };
+		83299D0D23DCACA0003F7D5C /* MixAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */; };
 		D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */; };
 		D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */; };
 		D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */; };
@@ -54,6 +55,7 @@
 		83299D0623DC89D4003F7D5C /* AudioEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditor.swift; sourceTree = "<group>"; };
 		83299D0823DC97C6003F7D5C /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
 		83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutAudioViewController.swift; sourceTree = "<group>"; };
+		83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixAudioViewController.swift; sourceTree = "<group>"; };
 		D695F7D723CEFA8C00DF5B50 /* MediaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */,
 				83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */,
+				83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				83299D0B23DC98BA003F7D5C /* CutAudioViewController.swift in Sources */,
 				83299D0923DC97C6003F7D5C /* RootTableViewController.swift in Sources */,
 				83299D0723DC89D4003F7D5C /* AudioEditor.swift in Sources */,
+				83299D0D23DCACA0003F7D5C /* MixAudioViewController.swift in Sources */,
 				D695F80E23CEFDA300DF5B50 /* AudioRecorder.swift in Sources */,
 				83299CFF23DC83FA003F7D5C /* AudioMixer.swift in Sources */,
 				D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */,

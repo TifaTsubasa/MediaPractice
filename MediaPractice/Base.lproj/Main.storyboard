@@ -105,6 +105,27 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="FQV-58-rji">
+                                        <rect key="frame" x="0.0" y="268" width="414" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FQV-58-rji" id="zJ5-LH-GHd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd1-b0-xdd">
+                                                    <rect key="frame" x="36" y="19.5" width="103" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="qd1-b0-xdd" firstAttribute="centerY" secondItem="zJ5-LH-GHd" secondAttribute="centerY" id="5Nm-wl-E4U"/>
+                                                <constraint firstItem="qd1-b0-xdd" firstAttribute="leading" secondItem="zJ5-LH-GHd" secondAttribute="leadingMargin" constant="16" id="Zbg-au-jY3"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qd1-b0-xdd" secondAttribute="trailing" constant="20" symbolic="YES" id="kxN-Zw-XPI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>

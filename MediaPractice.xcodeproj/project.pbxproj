@@ -24,6 +24,7 @@
 		83299EC623DEA959003F7D5C /* lut_abao.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC423DEA959003F7D5C /* lut_abao.png */; };
 		83299ECE23DEDA84003F7D5C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; };
 		83299ECF23DEDA84003F7D5C /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83299ED123DEDB52003F7D5C /* FilterCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */; };
 		D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */; };
 		D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */; };
 		D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */; };
@@ -83,6 +84,7 @@
 		83299EC323DEA959003F7D5C /* lut_neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_neutral.png; sourceTree = "<group>"; };
 		83299EC423DEA959003F7D5C /* lut_abao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_abao.png; sourceTree = "<group>"; };
 		83299ECC23DEDA4C003F7D5C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
+		83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCameraViewController.swift; sourceTree = "<group>"; };
 		D695F7D723CEFA8C00DF5B50 /* MediaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */,
 				83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */,
 				83299D1523DDE24A003F7D5C /* ImageFilterViewController.swift */,
+				83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				D695F80E23CEFDA300DF5B50 /* AudioRecorder.swift in Sources */,
 				83299CFF23DC83FA003F7D5C /* AudioMixer.swift in Sources */,
 				D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */,
+				83299ED123DEDB52003F7D5C /* FilterCameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

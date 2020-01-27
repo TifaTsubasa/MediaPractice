@@ -11,12 +11,19 @@
 		83299CFD23DC837B003F7D5C /* 2.aac in Resources */ = {isa = PBXBuildFile; fileRef = 83299CFC23DC837B003F7D5C /* 2.aac */; };
 		83299CFF23DC83FA003F7D5C /* AudioMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299CFE23DC83FA003F7D5C /* AudioMixer.swift */; };
 		83299D0123DC8978003F7D5C /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299D0023DC8978003F7D5C /* 1.mp3 */; };
-		83299D0323DC89A2003F7D5C /* sd1579950669_2.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 83299D0223DC89A2003F7D5C /* sd1579950669_2.MP4 */; };
+		83299D0323DC89A2003F7D5C /* 1.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 83299D0223DC89A2003F7D5C /* 1.MP4 */; };
 		83299D0523DC89AD003F7D5C /* VideoMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0423DC89AD003F7D5C /* VideoMixer.swift */; };
 		83299D0723DC89D4003F7D5C /* AudioEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0623DC89D4003F7D5C /* AudioEditor.swift */; };
 		83299D0923DC97C6003F7D5C /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0823DC97C6003F7D5C /* RootTableViewController.swift */; };
 		83299D0B23DC98BA003F7D5C /* CutAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */; };
 		83299D0D23DCACA0003F7D5C /* MixAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */; };
+		83299D1623DDE24A003F7D5C /* ImageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D1523DDE24A003F7D5C /* ImageFilterViewController.swift */; };
+		83299D1923DDE2A0003F7D5C /* ImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299D1823DDE2A0003F7D5C /* ImageEditor.swift */; };
+		83299EC123DEA454003F7D5C /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC023DEA454003F7D5C /* 1.JPG */; };
+		83299EC523DEA959003F7D5C /* lut_neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC323DEA959003F7D5C /* lut_neutral.png */; };
+		83299EC623DEA959003F7D5C /* lut_abao.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC423DEA959003F7D5C /* lut_abao.png */; };
+		83299ECE23DEDA84003F7D5C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; };
+		83299ECF23DEDA84003F7D5C /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */; };
 		D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */; };
 		D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */; };
@@ -45,17 +52,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		83299EC923DEA9E4003F7D5C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				83299ECF23DEDA84003F7D5C /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		83299CFA23DC7C56003F7D5C /* 1.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.aac; sourceTree = "<group>"; };
 		83299CFC23DC837B003F7D5C /* 2.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.aac; sourceTree = "<group>"; };
 		83299CFE23DC83FA003F7D5C /* AudioMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMixer.swift; sourceTree = "<group>"; };
 		83299D0023DC8978003F7D5C /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
-		83299D0223DC89A2003F7D5C /* sd1579950669_2.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sd1579950669_2.MP4; sourceTree = "<group>"; };
+		83299D0223DC89A2003F7D5C /* 1.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.MP4; sourceTree = "<group>"; };
 		83299D0423DC89AD003F7D5C /* VideoMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMixer.swift; sourceTree = "<group>"; };
 		83299D0623DC89D4003F7D5C /* AudioEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditor.swift; sourceTree = "<group>"; };
 		83299D0823DC97C6003F7D5C /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
 		83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutAudioViewController.swift; sourceTree = "<group>"; };
 		83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixAudioViewController.swift; sourceTree = "<group>"; };
+		83299D1523DDE24A003F7D5C /* ImageFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterViewController.swift; sourceTree = "<group>"; };
+		83299D1823DDE2A0003F7D5C /* ImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditor.swift; sourceTree = "<group>"; };
+		83299EC023DEA454003F7D5C /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		83299EC323DEA959003F7D5C /* lut_neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_neutral.png; sourceTree = "<group>"; };
+		83299EC423DEA959003F7D5C /* lut_abao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_abao.png; sourceTree = "<group>"; };
+		83299ECC23DEDA4C003F7D5C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
 		D695F7D723CEFA8C00DF5B50 /* MediaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83299ECE23DEDA84003F7D5C /* GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +129,49 @@
 		83299CF923DC7C4A003F7D5C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				83299EC223DEA912003F7D5C /* Filter */,
+				83299EC023DEA454003F7D5C /* 1.JPG */,
 				83299CFA23DC7C56003F7D5C /* 1.aac */,
 				83299CFC23DC837B003F7D5C /* 2.aac */,
 				83299D0023DC8978003F7D5C /* 1.mp3 */,
-				83299D0223DC89A2003F7D5C /* sd1579950669_2.MP4 */,
+				83299D0223DC89A2003F7D5C /* 1.MP4 */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		83299D0E23DD873C003F7D5C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D695F80D23CEFDA300DF5B50 /* AudioRecorder.swift */,
+				83299CFE23DC83FA003F7D5C /* AudioMixer.swift */,
+				83299D0623DC89D4003F7D5C /* AudioEditor.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		83299D0F23DD8747003F7D5C /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				83299D0423DC89AD003F7D5C /* VideoMixer.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		83299D1723DDE28F003F7D5C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				83299D1823DDE2A0003F7D5C /* ImageEditor.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		83299EC223DEA912003F7D5C /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				83299EC423DEA959003F7D5C /* lut_abao.png */,
+				83299EC323DEA959003F7D5C /* lut_neutral.png */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 		D695F7CE23CEFA8C00DF5B50 = {
@@ -139,6 +204,7 @@
 				D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */,
 				83299D0823DC97C6003F7D5C /* RootTableViewController.swift */,
 				D695F7E023CEFA8C00DF5B50 /* Main.storyboard */,
+				83299ECC23DEDA4C003F7D5C /* GPUImage.framework */,
 				D695F7E323CEFA8D00DF5B50 /* Assets.xcassets */,
 				D695F7E523CEFA8D00DF5B50 /* LaunchScreen.storyboard */,
 				D695F7E823CEFA8D00DF5B50 /* Info.plist */,
@@ -170,6 +236,7 @@
 				D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */,
 				83299D0A23DC98BA003F7D5C /* CutAudioViewController.swift */,
 				83299D0C23DCACA0003F7D5C /* MixAudioViewController.swift */,
+				83299D1523DDE24A003F7D5C /* ImageFilterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,10 +244,9 @@
 		D695F80C23CEFD9300DF5B50 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				D695F80D23CEFDA300DF5B50 /* AudioRecorder.swift */,
-				83299CFE23DC83FA003F7D5C /* AudioMixer.swift */,
-				83299D0423DC89AD003F7D5C /* VideoMixer.swift */,
-				83299D0623DC89D4003F7D5C /* AudioEditor.swift */,
+				83299D1723DDE28F003F7D5C /* Image */,
+				83299D0F23DD8747003F7D5C /* Video */,
+				83299D0E23DD873C003F7D5C /* Audio */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -195,6 +261,7 @@
 				D695F7D323CEFA8C00DF5B50 /* Sources */,
 				D695F7D423CEFA8C00DF5B50 /* Frameworks */,
 				D695F7D523CEFA8C00DF5B50 /* Resources */,
+				83299EC923DEA9E4003F7D5C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,10 +356,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83299D0323DC89A2003F7D5C /* sd1579950669_2.MP4 in Resources */,
+				83299EC123DEA454003F7D5C /* 1.JPG in Resources */,
+				83299D0323DC89A2003F7D5C /* 1.MP4 in Resources */,
 				83299D0123DC8978003F7D5C /* 1.mp3 in Resources */,
+				83299EC523DEA959003F7D5C /* lut_neutral.png in Resources */,
 				D695F7E723CEFA8D00DF5B50 /* LaunchScreen.storyboard in Resources */,
 				83299CFB23DC7C56003F7D5C /* 1.aac in Resources */,
+				83299EC623DEA959003F7D5C /* lut_abao.png in Resources */,
 				83299CFD23DC837B003F7D5C /* 2.aac in Resources */,
 				D695F7E423CEFA8D00DF5B50 /* Assets.xcassets in Resources */,
 				D695F7E223CEFA8C00DF5B50 /* Main.storyboard in Resources */,
@@ -323,8 +393,10 @@
 				D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */,
 				83299D0523DC89AD003F7D5C /* VideoMixer.swift in Sources */,
 				D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */,
+				83299D1623DDE24A003F7D5C /* ImageFilterViewController.swift in Sources */,
 				83299D0B23DC98BA003F7D5C /* CutAudioViewController.swift in Sources */,
 				83299D0923DC97C6003F7D5C /* RootTableViewController.swift in Sources */,
+				83299D1923DDE2A0003F7D5C /* ImageEditor.swift in Sources */,
 				83299D0723DC89D4003F7D5C /* AudioEditor.swift in Sources */,
 				83299D0D23DCACA0003F7D5C /* MixAudioViewController.swift in Sources */,
 				D695F80E23CEFDA300DF5B50 /* AudioRecorder.swift in Sources */,
@@ -434,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -488,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -504,6 +576,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C7PDH2R53;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MediaPractice",
+				);
 				INFOPLIST_FILE = MediaPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,6 +598,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C7PDH2R53;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MediaPractice",
+				);
 				INFOPLIST_FILE = MediaPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

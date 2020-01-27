@@ -21,6 +21,8 @@ class RootTableViewController: UITableViewController {
       navigationController?.pushViewController(CutAudioViewController(), animated: true)
     case 2:
       navigationController?.pushViewController(MixAudioViewController(), animated: true)
+    case 3:
+      navigationController?.pushViewController(ImageFilterViewController(), animated: true)
     default: break
     }
     print(indexPath)

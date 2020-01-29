@@ -16,8 +16,6 @@ struct MixAudioComponent {
 
 class AudioMixer {
   
-//  static let path = ""
-  
   static func mix(components: [MixAudioComponent], completion: @escaping ((Result<URL, Error>) -> Void)) {
     let outputPath = "\(NSTemporaryDirectory())mix_audio.m4a"
     let outputURL = URL(fileURLWithPath: outputPath)

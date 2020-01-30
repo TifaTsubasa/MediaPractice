@@ -26,7 +26,8 @@
 		83299ECF23DEDA84003F7D5C /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83299ED123DEDB52003F7D5C /* FilterCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */; };
 		83299ED323E1DFF3003F7D5C /* MixVideoAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED223E1DFF3003F7D5C /* MixVideoAudioViewController.swift */; };
-		83299ED523E1F24A003F7D5C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED423E1F24A003F7D5C /* VideoPlayerViewController.swift */; };
+		83299ED723E28C3A003F7D5C /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED623E28C3A003F7D5C /* RecordVideoViewController.swift */; };
+		83299ED923E28C45003F7D5C /* VideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED823E28C45003F7D5C /* VideoRecorder.swift */; };
 		D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */; };
 		D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */; };
 		D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */; };
@@ -88,7 +89,8 @@
 		83299ECC23DEDA4C003F7D5C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
 		83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCameraViewController.swift; sourceTree = "<group>"; };
 		83299ED223E1DFF3003F7D5C /* MixVideoAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixVideoAudioViewController.swift; sourceTree = "<group>"; };
-		83299ED423E1F24A003F7D5C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		83299ED623E28C3A003F7D5C /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		83299ED823E28C45003F7D5C /* VideoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorder.swift; sourceTree = "<group>"; };
 		D695F7D723CEFA8C00DF5B50 /* MediaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				83299D0423DC89AD003F7D5C /* VideoMixer.swift */,
+				83299ED823E28C45003F7D5C /* VideoRecorder.swift */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -245,7 +248,7 @@
 				83299D1523DDE24A003F7D5C /* ImageFilterViewController.swift */,
 				83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */,
 				83299ED223E1DFF3003F7D5C /* MixVideoAudioViewController.swift */,
-				83299ED423E1F24A003F7D5C /* VideoPlayerViewController.swift */,
+				83299ED623E28C3A003F7D5C /* RecordVideoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			files = (
 				D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */,
 				83299D0523DC89AD003F7D5C /* VideoMixer.swift in Sources */,
+				83299ED923E28C45003F7D5C /* VideoRecorder.swift in Sources */,
 				D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */,
 				83299D1623DDE24A003F7D5C /* ImageFilterViewController.swift in Sources */,
 				83299D0B23DC98BA003F7D5C /* CutAudioViewController.swift in Sources */,
@@ -411,9 +415,9 @@
 				83299D0D23DCACA0003F7D5C /* MixAudioViewController.swift in Sources */,
 				D695F80E23CEFDA300DF5B50 /* AudioRecorder.swift in Sources */,
 				83299CFF23DC83FA003F7D5C /* AudioMixer.swift in Sources */,
-				83299ED523E1F24A003F7D5C /* VideoPlayerViewController.swift in Sources */,
 				D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */,
 				83299ED123DEDB52003F7D5C /* FilterCameraViewController.swift in Sources */,
+				83299ED723E28C3A003F7D5C /* RecordVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,15 +20,18 @@ class RootTableViewController: UITableViewController {
     let page = Page(rawValue: indexPath.row)
     switch page {
     case .player:
-      let path = "\(NSTemporaryDirectory())video_audi_mix.mp4"
+      let path = "\(NSTemporaryDirectory())record_video.mov"
       let asset = AVURLAsset(url: URL(fileURLWithPath: path))
       let item = AVPlayerItem(asset: asset)
       let playerController = AVPlayerViewController()
       playerController.player = AVPlayer(playerItem: item)
       playerController.videoGravity = .resizeAspectFill
       navigationController?.pushViewController(playerController, animated: true)
-//      playerController.view.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: 300)
-//      view.addSubview(playerController.view)
+    case .recordAudio:
+      let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "RecordAudioViewController")
+      navigationController?.pushViewController(vc, animated: true)
+    case .recordVideo:
+      navigationController?.pushViewController(RecordVideoViewController(), animated: true)
     case .cutAudio:
       navigationController?.pushViewController(CutAudioViewController(), animated: true)
     case .mixAudio:
@@ -47,7 +50,9 @@ class RootTableViewController: UITableViewController {
 }
 
 enum Page: Int {
-  case player = 1
+  case player = 0
+  case recordAudio
+  case recordVideo
   case cutAudio
   case mixAudio
   case mixVideoAudio

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class RecordAudioViewController: UIViewController {
     
     private let recorder = AudioRecorder()
 

@@ -22,12 +22,15 @@
 		83299EC123DEA454003F7D5C /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC023DEA454003F7D5C /* 1.JPG */; };
 		83299EC523DEA959003F7D5C /* lut_neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC323DEA959003F7D5C /* lut_neutral.png */; };
 		83299EC623DEA959003F7D5C /* lut_abao.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299EC423DEA959003F7D5C /* lut_abao.png */; };
-		83299ECE23DEDA84003F7D5C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; };
-		83299ECF23DEDA84003F7D5C /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83299ECC23DEDA4C003F7D5C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83299ED123DEDB52003F7D5C /* FilterCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */; };
 		83299ED323E1DFF3003F7D5C /* MixVideoAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED223E1DFF3003F7D5C /* MixVideoAudioViewController.swift */; };
 		83299ED723E28C3A003F7D5C /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED623E28C3A003F7D5C /* RecordVideoViewController.swift */; };
 		83299ED923E28C45003F7D5C /* VideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299ED823E28C45003F7D5C /* VideoRecorder.swift */; };
+		83299EDB23E2BE6D003F7D5C /* FilterVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299EDA23E2BE6D003F7D5C /* FilterVideoViewController.swift */; };
+		83299EDD23E2BE7C003F7D5C /* VideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83299EDC23E2BE7C003F7D5C /* VideoEditor.swift */; };
+		83299EE423E31FAA003F7D5C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83299EE323E31FAA003F7D5C /* GPUImage.framework */; };
+		83299EE523E31FAA003F7D5C /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83299EE323E31FAA003F7D5C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83299EE723E32AB8003F7D5C /* 1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 83299EE623E32AB8003F7D5C /* 1.mov */; };
 		D695F7DB23CEFA8C00DF5B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */; };
 		D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */; };
 		D695F7DF23CEFA8C00DF5B50 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D695F7DE23CEFA8C00DF5B50 /* RecordAudioViewController.swift */; };
@@ -63,7 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				83299ECF23DEDA84003F7D5C /* GPUImage.framework in Embed Frameworks */,
+				83299EE523E31FAA003F7D5C /* GPUImage.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,11 +89,14 @@
 		83299EC023DEA454003F7D5C /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
 		83299EC323DEA959003F7D5C /* lut_neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_neutral.png; sourceTree = "<group>"; };
 		83299EC423DEA959003F7D5C /* lut_abao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_abao.png; sourceTree = "<group>"; };
-		83299ECC23DEDA4C003F7D5C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
 		83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCameraViewController.swift; sourceTree = "<group>"; };
 		83299ED223E1DFF3003F7D5C /* MixVideoAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixVideoAudioViewController.swift; sourceTree = "<group>"; };
 		83299ED623E28C3A003F7D5C /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		83299ED823E28C45003F7D5C /* VideoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorder.swift; sourceTree = "<group>"; };
+		83299EDA23E2BE6D003F7D5C /* FilterVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVideoViewController.swift; sourceTree = "<group>"; };
+		83299EDC23E2BE7C003F7D5C /* VideoEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditor.swift; sourceTree = "<group>"; };
+		83299EE323E31FAA003F7D5C /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83299EE623E32AB8003F7D5C /* 1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1.mov; sourceTree = "<group>"; };
 		D695F7D723CEFA8C00DF5B50 /* MediaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D695F7DA23CEFA8C00DF5B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83299ECE23DEDA84003F7D5C /* GPUImage.framework in Frameworks */,
+				83299EE423E31FAA003F7D5C /* GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +149,7 @@
 				83299CFC23DC837B003F7D5C /* 2.aac */,
 				83299D0023DC8978003F7D5C /* 1.mp3 */,
 				83299D0223DC89A2003F7D5C /* 1.MP4 */,
+				83299EE623E32AB8003F7D5C /* 1.mov */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -162,6 +169,7 @@
 			children = (
 				83299D0423DC89AD003F7D5C /* VideoMixer.swift */,
 				83299ED823E28C45003F7D5C /* VideoRecorder.swift */,
+				83299EDC23E2BE7C003F7D5C /* VideoEditor.swift */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -183,6 +191,14 @@
 			path = Filter;
 			sourceTree = "<group>";
 		};
+		83299EE223E31FAA003F7D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83299EE323E31FAA003F7D5C /* GPUImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D695F7CE23CEFA8C00DF5B50 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +206,7 @@
 				D695F7F023CEFA8D00DF5B50 /* MediaPracticeTests */,
 				D695F7FB23CEFA8D00DF5B50 /* MediaPracticeUITests */,
 				D695F7D823CEFA8C00DF5B50 /* Products */,
+				83299EE223E31FAA003F7D5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,7 +230,6 @@
 				D695F7DC23CEFA8C00DF5B50 /* SceneDelegate.swift */,
 				83299D0823DC97C6003F7D5C /* RootTableViewController.swift */,
 				D695F7E023CEFA8C00DF5B50 /* Main.storyboard */,
-				83299ECC23DEDA4C003F7D5C /* GPUImage.framework */,
 				D695F7E323CEFA8D00DF5B50 /* Assets.xcassets */,
 				D695F7E523CEFA8D00DF5B50 /* LaunchScreen.storyboard */,
 				D695F7E823CEFA8D00DF5B50 /* Info.plist */,
@@ -249,6 +265,7 @@
 				83299ED023DEDB52003F7D5C /* FilterCameraViewController.swift */,
 				83299ED223E1DFF3003F7D5C /* MixVideoAudioViewController.swift */,
 				83299ED623E28C3A003F7D5C /* RecordVideoViewController.swift */,
+				83299EDA23E2BE6D003F7D5C /* FilterVideoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +394,7 @@
 				83299EC623DEA959003F7D5C /* lut_abao.png in Resources */,
 				83299CFD23DC837B003F7D5C /* 2.aac in Resources */,
 				D695F7E423CEFA8D00DF5B50 /* Assets.xcassets in Resources */,
+				83299EE723E32AB8003F7D5C /* 1.mov in Resources */,
 				D695F7E223CEFA8C00DF5B50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +430,9 @@
 				83299D1923DDE2A0003F7D5C /* ImageEditor.swift in Sources */,
 				83299D0723DC89D4003F7D5C /* AudioEditor.swift in Sources */,
 				83299ED323E1DFF3003F7D5C /* MixVideoAudioViewController.swift in Sources */,
+				83299EDD23E2BE7C003F7D5C /* VideoEditor.swift in Sources */,
 				83299D0D23DCACA0003F7D5C /* MixAudioViewController.swift in Sources */,
+				83299EDB23E2BE6D003F7D5C /* FilterVideoViewController.swift in Sources */,
 				D695F80E23CEFDA300DF5B50 /* AudioRecorder.swift in Sources */,
 				83299CFF23DC83FA003F7D5C /* AudioMixer.swift in Sources */,
 				D695F7DD23CEFA8C00DF5B50 /* SceneDelegate.swift in Sources */,

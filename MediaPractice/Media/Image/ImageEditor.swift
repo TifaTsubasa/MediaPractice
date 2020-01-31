@@ -19,12 +19,11 @@ class ImageEditor {
     
     let filterImageOutput = PictureOutput()
 
-    filterImageOutput.addSource(picture)
-//
 //       // 随便用一个滤镜
-    let filter = LookupFilter()
+    let filter = SketchFilter()
     
-    picture --> filterImageOutput
+    picture --> filter --> filterImageOutput
+    picture.processImage()
 //       _sepiaFilter = [[GPUImageTiltShiftFilter alloc] init];
 //
 //       // 如果要显示话,得创建一个GPUImageView来进行显示

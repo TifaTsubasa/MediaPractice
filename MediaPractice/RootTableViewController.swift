@@ -20,7 +20,7 @@ class RootTableViewController: UITableViewController {
     let page = Page(rawValue: indexPath.row)
     switch page {
     case .player:
-      let path = "\(NSTemporaryDirectory())record_video.mov"
+      let path = "\(NSTemporaryDirectory())filter_video.mov"
       let asset = AVURLAsset(url: URL(fileURLWithPath: path))
       let item = AVPlayerItem(asset: asset)
       let playerController = AVPlayerViewController()
@@ -42,6 +42,8 @@ class RootTableViewController: UITableViewController {
       navigationController?.pushViewController(ImageFilterViewController(), animated: true)
     case .filterCamera:
       navigationController?.pushViewController(FilterCameraViewController(), animated: true)
+    case .filterVideo:
+      navigationController?.pushViewController(FilterVideoViewController(), animated: true)
     default: break
     }
     print(indexPath)
@@ -58,4 +60,5 @@ enum Page: Int {
   case mixVideoAudio
   case filterImage
   case filterCamera
+  case filterVideo
 }

@@ -186,6 +186,27 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="Ex5-Q5-XWx">
+                                        <rect key="frame" x="0.0" y="508" width="414" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ex5-Q5-XWx" id="Nad-sd-BTP">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4D-CL-vjn">
+                                                    <rect key="frame" x="36" y="19.5" width="87" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="i4D-CL-vjn" firstAttribute="leading" secondItem="Nad-sd-BTP" secondAttribute="leadingMargin" constant="16" id="8kF-WX-Utj"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="i4D-CL-vjn" secondAttribute="trailing" constant="20" symbolic="YES" id="Wpi-MW-4P3"/>
+                                                <constraint firstItem="i4D-CL-vjn" firstAttribute="centerY" secondItem="Nad-sd-BTP" secondAttribute="centerY" id="kkg-F8-rxV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>

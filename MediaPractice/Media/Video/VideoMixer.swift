@@ -43,18 +43,5 @@ class VideoMixer {
         completion(Result.failure(exportSession!.error!))
       }
     }
-//
-//    //视频文件资源
-//
-//    // presetName 与 outputFileType 要对应  导出合并的音频
-//    AVAssetExportSession* assetExportSession = [[AVAssetExportSession alloc] initWithAsset:mixComposition presetName:AVAssetExportPresetMediumQuality];
-//    assetExportSession.outputURL = destUrl;
-//    assetExportSession.outputFileType = @"com.apple.quicktime-movie";
-//    assetExportSession.shouldOptimizeForNetworkUse = YES;
-//    [assetExportSession exportAsynchronouslyWithCompletionHandler:^{
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            NSLog(@"%@",assetExportSession.error);
-//        });
-//    }];
   }
 }
